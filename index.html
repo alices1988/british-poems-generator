@@ -15,28 +15,24 @@
         <h1>British poems generator</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter british poem topic"
-            autofocus
-            autocomplete="off"
-            required
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem">
-          <br />
-          If you can talk with crowds and keep your virtue,
-          <br />
-          Or walk with Kings an' not lose the common touch....
-          <br />
-          ....Yours is the Earth and everything that’s in it,
-          <br />
-          And—which is more—you’ll be a Man, my son!
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter British poem topic"
+              autofocus
+              autocomplete="off"
+              required
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="example">i.e. "Snow", "Love" or "Peace", etc</div>
         </div>
+
+        <br />
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         <p>
