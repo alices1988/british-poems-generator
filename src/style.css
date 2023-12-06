@@ -28,6 +28,10 @@ form {
   padding: 30px;
 }
 
+.poem strong {
+  color: rgb(18, 82, 138);
+}
+
 .container {
   margin: 120px auto;
   max-width: 600px;
